@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git</title>
+    <style>
+        li {
+            margin: 5px 0;
+            font-size: 120%;
+        }
+        .emp {
+            font-weight: 800
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>git init</li>
+        <li class="emp">git status</li>
+        <li>git add 파일명 / git add . // 모든파일을 스테이지에 올리는 명령어</li>
+        <li>git checkout -- 파일명 // 스테이지에서 내리는 명령어</li>
+        <li>git rm --cached 파일명 // 스테이지에 올라온 파일을 다시 스테이지에서 내리는 명령어</li>
+        <li class="emp">git commit  =>vi edit접속됨, 커밋할 메세지 작성 후 esc :wq로 vi editer 빠져나옴 <br> // git commit -m "version 1.0.0" // 현재상태를 저장해줘.</li>
+        <li>git config --global user.email "내이메일작성"</li>
+        <li>git config --global user.name "bonav00" // 후에 commit 해야함 제일 첨음에 커밋할경우 </li>
+        <li>git log / git shortlog // git의 commit log를 보여준다.</li>
+        <li>git commit -am "커밋메시지작성" // git add 하고 스테이지올린파일 git commit을 동시에 해주는 명령어</li>
+        <li>git remote add <name> <url> // 원격저장소에 연결하는 명령어</li>
+    </ol>
+</body>
+</html>
